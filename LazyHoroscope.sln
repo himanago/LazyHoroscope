@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyHoroscope", "LazyHoroscope\LazyHoroscope.csproj", "{F492E24F-4844-46F8-8A1C-C002C1A0060C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F492E24F-4844-46F8-8A1C-C002C1A0060C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F492E24F-4844-46F8-8A1C-C002C1A0060C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F492E24F-4844-46F8-8A1C-C002C1A0060C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F492E24F-4844-46F8-8A1C-C002C1A0060C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52AFE393-4F4F-40C2-ADF6-8AF2F1C907BD}
+	EndGlobalSection
+EndGlobal
