@@ -14,7 +14,7 @@ namespace LazyHoroscope
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
         {
-            return (ActionResult)new OkObjectResult("‚¨‚Í‚æ‚¤");
+            return (ActionResult)new OkObjectResult("Good morning");
         }
     }
 }
