@@ -10,11 +10,11 @@ namespace LazyHoroscope
     public static class KnockFunction
     {
         [FunctionName("KnockFunction")]
-        public static async Task<IActionResult> Run(
+        public static IActionResult Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
         {
-            return (ActionResult)new OkObjectResult("Good morning");
+            return new OkObjectResult("Good morning");
         }
     }
 }
