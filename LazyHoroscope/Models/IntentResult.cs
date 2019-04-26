@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 using Alexa.NET.Response;
+using Google.Cloud.Dialogflow.V2;
 using CEK.CSharp.Models;
-
 
 namespace LazyHoroscope.Models
 {
@@ -40,6 +40,13 @@ namespace LazyHoroscope.Models
             };
             messages.ForEach(m => res.AddText(m));
             return res;
+        }
+
+        public WebhookResponse GetGoogleResponse()
+        {
+            var webhookResponse = new WebhookResponse();
+            webhookResponse.FulfillmentText = string.Join('.', messages);
+            return webhookResponse;
         }
     }
 }
